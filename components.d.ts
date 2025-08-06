@@ -8,43 +8,16 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AppConfig: typeof import('./src/components/AppConfig.vue')['default']
-    AppFooter: typeof import('./src/components/AppFooter.vue')['default']
-    AppTopbar: typeof import('./src/components/AppTopbar.vue')['default']
     Button: typeof import('primevue/button')['default']
     Card: typeof import('primevue/card')['default']
-    Chart: typeof import('primevue/chart')['default']
-    Column: typeof import('primevue/column')['default']
-    DataTable: typeof import('primevue/datatable')['default']
     FloatLabel: typeof import('primevue/floatlabel')['default']
-    IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
-    IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
-    IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
-    IconField: typeof import('primevue/iconfield')['default']
-    IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
-    IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
     IftaLabel: typeof import('primevue/iftalabel')['default']
     InputGroup: typeof import('primevue/inputgroup')['default']
-    InputGroupAddon: typeof import('primevue/inputgroupaddon')['default']
-    InputIcon: typeof import('primevue/inputicon')['default']
     InputMask: typeof import('primevue/inputmask')['default']
-    InputText: typeof import('primevue/inputtext')['default']
     Listbox: typeof import('primevue/listbox')['default']
-    Panel: typeof import('primevue/panel')['default']
-    ProductOverviewWidget: typeof import('./src/components/dashboard/ProductOverviewWidget.vue')['default']
     ProgressSpinner: typeof import('primevue/progressspinner')['default']
-    RecentActivityWidget: typeof import('./src/components/dashboard/RecentActivityWidget.vue')['default']
     Rule: typeof import('./src/components/Rule.vue')['default']
-    SalesTrendWidget: typeof import('./src/components/dashboard/SalesTrendWidget.vue')['default']
-    SelectButton: typeof import('primevue/selectbutton')['default']
-    Slider: typeof import('primevue/slider')['default']
-    StatsWidget: typeof import('./src/components/dashboard/StatsWidget.vue')['default']
-    Tag: typeof import('primevue/tag')['default']
     Textarea: typeof import('primevue/textarea')['default']
-    TheRules: typeof import('./src/components/TheRules.vue')['default']
     Title: typeof import('./src/components/Title.vue')['default']
-  }
-  export interface GlobalDirectives {
-    StyleClass: typeof import('primevue/styleclass')['default']
   }
 }

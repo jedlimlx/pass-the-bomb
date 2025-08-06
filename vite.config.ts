@@ -10,8 +10,5 @@ export default defineConfig({
         Components({
             resolvers: [PrimeVueResolver()],
         })
-    ],
-    server: {
-        allowedHosts: ["aebce2404d56.ngrok-free.app"]
-    }
+    ]
 })
